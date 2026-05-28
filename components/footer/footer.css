@@ -1,0 +1,26 @@
+.footer {
+  padding: 20px 0; /* Use padding instead of fixed height so the footer can grow naturally if more content is added */
+  background-color: var(--color-neutral-900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-neutral-100);
+
+}
+
+.footer-links {
+  color: var(--color-neutral-100);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-link-icon {
+  width: 30px;
+  fill: var(--color-neutral-100);
+}
+
+.footer-links a:hover .footer-link-icon {
+  fill: var(--color-tertiary);
+}
