@@ -24,3 +24,14 @@
 .footer-links a:hover .footer-link-icon {
   fill: var(--color-tertiary);
 }
+
+/* Component mediaqueries */
+
+/* 768... Tablet-desktop */
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 5%;
+  }
+}
