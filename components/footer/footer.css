@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-neutral-100);
-
+  gap: 10px;
 }
 
 .footer-links {
@@ -33,5 +33,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 5%;
+    gap: 0; /* No need for gap on tablet/desktop; spacing is handled by flex distribution. In mobile-first layout, gap was 10px */
   }
 }
