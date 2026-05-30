@@ -21,17 +21,9 @@
   transition: fill 0.3s ease;
 }
 
-/* Highlight social icons on hover and keyboard focus (Tab navigation) */
-.footer-links a:hover .footer-link-icon,
-.footer-links a:focus-visible .footer-link-icon {
+/* Highlight social icons on hover */
+.footer-links a:hover .footer-link-icon {
   fill: var(--color-tertiary);
-}
-
-/* Customized visual selection box for Tab navigation: */
-.footer-links a:focus-visible {
-  outline: 2px solid var(--color-tertiary);
-  outline-offset: 4px;
-  border-radius: 4px;
 }
 
 /* Component mediaqueries */
