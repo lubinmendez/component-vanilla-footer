@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   color: var(--color-neutral-100);
-  gap: 10px;
+  gap: 16px;
 }
 
 .footer-links {
