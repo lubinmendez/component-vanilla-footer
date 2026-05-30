@@ -22,7 +22,9 @@
   transition: fill 0.3s ease;
 }
 
-.footer-links a:hover .footer-link-icon {
+/* Highlight social icons on hover and keyboard focus (Tab navigation) */
+.footer-links a:hover .footer-link-icon,
+.footer-links a:focus-visible .footer-link-icon {
   fill: var(--color-tertiary);
 }
 
