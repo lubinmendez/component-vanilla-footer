@@ -28,6 +28,13 @@
   fill: var(--color-tertiary);
 }
 
+/* Customized visual selection box for Tab navigation: */
+.footer-links a:focus-visible {
+  outline: 2px solid var(--color-tertiary);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 /* Component mediaqueries */
 
 /* 768... Tablet-desktop */
