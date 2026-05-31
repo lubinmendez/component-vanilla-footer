@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6px;  /* Increase clickable area for better touch UX */
+  padding: var(--clickable-area-padding); /* Increase clickable area for better UX */
   user-select: none;
   -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
 }
