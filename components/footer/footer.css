@@ -31,6 +31,13 @@
   -webkit-tap-highlight-color: transparent; /* Remove mobile tap highlight */
 }
 
+/* Customized visual selection box for Tab navigation for this component */
+.footer-links a:focus-visible {
+  outline: 2px solid var(--color-neutral-100);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 /* Restrict hover to devices with hover capability and fine pointer */
 @media (hover: hover) and (pointer: fine) {
   .footer-links a:hover .footer-link-icon {
